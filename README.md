@@ -12,7 +12,7 @@ Valentines-Byte is a creative web experience designed to bring joy to users thro
 
 ## 💻 How to Run
 ```bash
-git clone https://github.com/your-username/valentines-byte.git
+git clone https://github.com/eldoJr/valentines-byte.git
 ```
 ---
 Happy coding!
