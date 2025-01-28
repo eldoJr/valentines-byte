@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+body {
+    color: #fff;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #7B1FA2, #E91E63);
+    font-family: 'Pacifico', cursive;
+    padding: 20px;
+}
+
+/* Optional: Add a subtle glow effect */
+body h1 {
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
+}
+
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 20px;
+  }
+  
+  .container .tenor-gif-embed {
+    max-width: 200px;
+    border-radius: 10px;
+  }
+  
+  .container .btn {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .btn a {
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3); /* Beautiful pink gradient */
+    padding: 12px 30px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(255, 118, 136, 0.4);
+}
+
+/* Hover Effect */
+.btn a:hover {
+    transform: translateY(-3px); /* Slight lift */
+    box-shadow: 0 6px 15px rgba(255, 118, 136, 0.6);
+    background: linear-gradient(135deg, #ff7eb3, #ff758c); /* Subtle reverse gradient */
+}
+
+/* Active (Click) Effect */
+.btn a:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 8px rgba(255, 118, 136, 0.5);
+}
