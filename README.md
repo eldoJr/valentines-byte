@@ -6,6 +6,9 @@ Welcome to Valentines-Byte! A playful and romantic web project celebrating love,
 
 Valentines-Byte is a creative web experience designed to bring joy to users through cute interactions, heartwarming messages, and vibrant colors. Whether you're looking to surprise your special someone or just enjoy the beauty of Valentine's Day, this site will add a touch of love to your day!
 
+## Demo
+You can play [here](https://valentines-byte.vercel.app/).
+
 ## Preview
 ![Preview](./preview.png)
 
